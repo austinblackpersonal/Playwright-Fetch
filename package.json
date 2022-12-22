@@ -1,0 +1,21 @@
+{
+  "name": "Playwright-Fetch",
+  "version": "1.0.0",
+  "description": "Playwright tests for Fetch Take Home Assignment",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinblackpersonal/Playwright-Fetch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/austinblackpersonal/Playwright-Fetch/issues"
+  },
+  "homepage": "https://github.com/austinblackpersonal/Playwright-Fetch#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.29.0"
+  }
+}
