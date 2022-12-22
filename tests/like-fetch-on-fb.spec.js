@@ -1,6 +1,12 @@
 // @ts-check
 const { test, expect } = require('@playwright/test');
 
+function delay(time) {
+    return new Promise(function(resolve) { 
+        setTimeout(resolve, time)
+    });
+  }
+
 test('navigate to Fetchs FB page and like it', async ({ page }) => {
     await page.goto('https://facebook.com')
 
@@ -40,7 +46,9 @@ test('navigate to Fetchs FB page and like it', async ({ page }) => {
 
     await likeButton.click()
 
-    await expect(likeButton).toHaveText("Liked")
+    await expect(likeButton).toContainText("Liked")
+
+    await delay(3000);
 
     await likeButton.click()
 
