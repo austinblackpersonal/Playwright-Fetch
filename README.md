@@ -9,8 +9,13 @@ Playwright tests for Fetch Take Home Assignment
 
 ## Installing Playwright
 - Next, we'll install playwright onto our system
-- Open up your terminal and run the following command
+- Open up your terminal and run the following command and then select the following options
   - ```npm init playwright@latest```
+  - Do you want to use TypeScript or JavaScript? ```JavaScript```
+  - Where to put your end-to-end tests? ```e2e```
+  - Add a GitHub Actions workflow? ```false```
+  - Install Playwright browsers ```true```
+  
 - Once playwright is fully installed, we can run our test
 
 ## Running our test
