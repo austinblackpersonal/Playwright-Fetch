@@ -17,5 +17,4 @@ Playwright tests for Fetch Take Home Assignment
 - Navigate to where you cloned this repo onto your machine
 - Run this command in your terminal
   - ```npx playwright test```
-- Once the test is complete, you can view the generated report in playwright-report/index.html
-
+  - you can add the flag ```--headed``` if you want to see the test ran in headed mode
